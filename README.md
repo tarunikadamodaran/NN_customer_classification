@@ -41,7 +41,7 @@ Training: Train with early stopping, batch size (e.g., 32), and suitable epochs.
 ## PROGRAM
 
 ### Name: TARUNIKA D
-### Register Number: 21223040227
+### Register Number: 212223040227
 
 ```python
 class PeopleClassifier(nn.Module):
