@@ -13,23 +13,35 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
+![NEURAL MODEL](https://github.com/user-attachments/assets/1e57d1d9-f50a-4e69-9820-7eb3d06a5cbc)
 
-Include the neural network model diagram.
 
 ## DESIGN STEPS
 
 ### STEP 1:
-Write your own steps
+Data Preprocessing: Clean, normalize, and split data into training, validation, and test sets.
 
 ### STEP 2:
+Model Design:
 
+Input Layer: Number of neurons = features.
+Hidden Layers: 2 layers with ReLU activation.
+Output Layer: 4 neurons (segments A, B, C, D) with softmax activation.
 ### STEP 3:
+Model Compilation: Use categorical crossentropy loss, Adam optimizer, and track accuracy.
 
+### STEP 4:
+Training: Train with early stopping, batch size (e.g., 32), and suitable epochs.
 
+### STEP 5:
+Model Compilation: Use categorical crossentropy loss, Adam optimizer, and track accuracy.
+
+### STEP 6:
+Training: Train with early stopping, batch size (e.g., 32), and suitable epochs.
 ## PROGRAM
 
-### Name: 
-### Register Number:
+### Name: TARUNIKA D
+### Register Number: 21223040227
 
 ```python
 class PeopleClassifier(nn.Module):
